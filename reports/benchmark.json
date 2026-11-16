@@ -1,0 +1,43 @@
+{
+  "corpus_documents": 202,
+  "retrieval": {
+    "lexical": {
+      "queries": 300,
+      "top1_correct": 160,
+      "top1_accuracy": 0.5333333333333333,
+      "unauthorized_hits": 0
+    },
+    "character": {
+      "queries": 300,
+      "top1_correct": 300,
+      "top1_accuracy": 1.0,
+      "unauthorized_hits": 0
+    },
+    "hybrid": {
+      "queries": 300,
+      "top1_correct": 160,
+      "top1_accuracy": 0.5333333333333333,
+      "unauthorized_hits": 0
+    }
+  },
+  "revocation_tests": 75,
+  "revocation_passed": 75,
+  "median_retrieval_ms": 10.052,
+  "p95_retrieval_ms": 69.633,
+  "answer_mode": "Offline extractive; external LLM integration not benchmarked.",
+  "relevance_labels": "Synthetic exact product IDs; one matching authorized policy per query. Not an external relevance benchmark.",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel"
+  },
+  "generated_at_utc": "2026-11-16T16:51:55.397860+00:00",
+  "scope": "Synthetic local benchmark, not production traffic or independent validation.",
+  "source_sha256": {
+    "app.py": "01b90d9777c81a80ebf878b8703929d39d221e2fca339db3273c94f86f8cee76",
+    "benchmark.py": "8f586f71d00404dee778fb6300c0926d1e8bd134f5c229c66db1de682ef8cbd7",
+    "core.py": "09e7d96c88c013491b90569d5c5e6b513ff63929324fba50535d8ef9c451c638",
+    "reporting.py": "b2ef02372026ec29643294d9cb7d96a4ede3dc780bf41972e35e02d9c0e136b9",
+    "ui.py": "e48984f498191a74d681f81c7dcb45ba6de3e878cf1c8df5bb92696ff754583d"
+  }
+}
